@@ -1,0 +1,225 @@
+/**********************************
+GENERAL
+***********************************/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+
+#wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+p{
+	font-size: 2.5em;
+}
+
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+
+header {
+	float: left;
+	margin: 0 0 0px 0;
+	padding: 10px 0 0 0;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#logo {
+	padding-left: 50px;
+	height: auto;
+	width: 200px;
+	float: left;
+}
+
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav{
+	float: right;
+	margin: 10px 100px 0 0;
+
+}
+
+nav ul{
+	list-style: none;
+	word-spacing: 50px;
+}
+
+nav li{
+	display: inline-block;
+	font-size: 1.25em;
+
+}
+
+#navigation {
+	position: fixed;
+}
+
+
+/**********************************
+CONTENTS
+***********************************/
+
+#mockup{
+	max-width: 450px;
+	padding: 40px 0 40px 0;
+	float: left;
+}
+
+.title {
+	text-align: center;	
+	margin-bottom: 0;
+}
+
+.subtext {
+	font-size: 1em;
+	text-align: center;
+}
+
+#elem-1 {
+	float: right;
+}
+
+#brand {
+	max-width: 450px;
+	float:right;
+	margin-top: 120px;
+}
+
+#elem-2{
+	float: left;
+	margin-top: 0;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+/**********************************
+PORTFOLIO
+***********************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li{
+	float: left;
+	width: 35%;
+	margin: 0;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 3%;
+	font-size: 1.25em;
+	text-align: center;
+	border: 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+	max-height: 150px;
+	font-size: 0.75em;
+	font-family: sans-serif;
+	font-style: italic;
+	text-align: center;
+	padding: 5px 0;
+	padding-right: 30px;
+	clear: both;
+	margin-top: 50px;
+}
+
+.social {
+	padding: 5px 0;
+	max-width: 30px;
+	float: right;
+	margin-right: 20px;
+}
+
+
+/**********************************
+COLORS
+***********************************/
+header {
+	background: #fff;
+}
+
+p {
+	color: #a08f60 ;
+}
+nav a, nav a:visited {
+	color: #a08f60;
+}
+
+nav a.selected, nav a:hover {
+	color: #893956;
+}
+
+
+
+footer{
+	background-color: #000;
+	color: #a08f60 ;
+}
+
+.subtext {
+	color: #757575;
+}
+
+
+
+@media screen and (min-width: 1200px;){
+	#wrapper {
+		max-width: 1000px;
+	}
+}
+
+
+
+
+
+
+
